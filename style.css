@@ -25,6 +25,12 @@ h6 {
     --p-color: #676f67;
 }
 
+img,
+svg {
+    vertical-align: middle;
+    width: 100%;
+}
+
 .thumbneil {
     background-image: url("images/header-img.jpg");
     background-repeat: no-repeat;
@@ -293,7 +299,7 @@ main {
 
 footer {
     position: relative;
-    bottom: -110em;
+    bottom: -137em;
     width: 100%;
     display: flex;
     flex-direction: column;
